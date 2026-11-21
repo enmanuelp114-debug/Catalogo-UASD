@@ -14,13 +14,13 @@ public class Conexion {
             String usuario = "root";
             String password = "indesifrable";
 
-            Connection con = DriverManager.getConnection(
+            Connection conection = DriverManager.getConnection(
                 url, usuario, password
             );
 
             System.out.println("Conexion exitosa");
 
-            return con;
+            return conection;
 
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
