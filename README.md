@@ -78,7 +78,7 @@ El script `uasd_catalogo.sql` crea la base `uasd_catalogo` con tres tablas relac
 Clona el repositorio o descárgalo como ZIP desde GitHub (**Code → Download ZIP**) y descomprímelo:
 
 ```
-git clone <URL-del-repositorio>
+git clone (https://github.com/enmanuelp114-debug/Catalogo-UASD/)
 ```
 
 ### 2. Instalar la base de datos
